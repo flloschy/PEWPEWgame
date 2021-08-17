@@ -16,7 +16,7 @@ def player_speed(): return json(open("./Data/Config/pre.json", "r", encoding="ut
 Text_font = pygame.font.SysFont('comicsans', 100)
 Text_font_30 = pygame.font.SysFont('comicsans', 30)
 Text_font_10 = pygame.font.SysFont('comicsans', 20)
-dic = "F:/Programme/pygamestuff/pew pew" # Put your Path here so everything can work correct
+dic = "F:/Programme/pygamestuff/pewpew" # Put your Path here so everything can work correct
 
 # Loading Sounds
 Attacker_Die = pygame.mixer.Sound(f'{dic}/Data/Sound/AttackerDie.wav')
